@@ -15,7 +15,8 @@ using vll = vector<ll>;
 void solve() {
     int a, b;
     cin>> a>> b;
-    cout<< a-b<< endl;
+    // cout<< a-b<< endl;
+    cout<< a+b<< endl;
 }
 
 int main() {

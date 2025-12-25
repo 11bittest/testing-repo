@@ -21,7 +21,7 @@ bool isPrime(int n) {
 
 void solve() {
     f(i, 2, 100) {
-        if(!isPrime(i)) cout<< i<< " ";
+        if(isPrime(i)) cout<< i<< " ";
     }
     cout<< endl;
 }

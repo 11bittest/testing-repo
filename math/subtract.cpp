@@ -15,8 +15,9 @@ using vll = vector<ll>;
 void solve() {
     int a, b;
     cin>> a>> b;
-    if(a>b || b>a) return;
-    cout<< 0<< endl;
+    // if(a>b || b>a) return;
+    // cout<< 0<< endl;
+    cout<< a-b<< endl;
 }
 
 int main() {
